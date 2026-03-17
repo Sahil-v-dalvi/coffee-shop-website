@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura | Premium Coffee</title>
+    <meta name="description" content="Experience world-class coffee with unparalleled aesthetic and taste.">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="loading">
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Floating Action Button -->
+    <a href="#menu" class="fab">
+        <i class="fa-solid fa-mug-hot"></i>
+        <span class="fab-text">Order Now</span>
+    </a>
+
+    <!-- Navigation -->
+    <header class="header">
+        <div class="logo">Aura.</div>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <nav class="fullscreen-menu">
+        <div class="menu-bg"></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link" data-text="Home">Home</a></li>
+            <li><a href="#about" class="nav-link" data-text="Our Story">Our Story</a></li>
+            <li><a href="#menu" class="nav-link" data-text="The Menu">The Menu</a></li>
+            <li><a href="#gallery" class="nav-link" data-text="Gallery">Gallery</a></li>
+            <li><a href="#testimonials" class="nav-link" data-text="Reviews">Reviews</a></li>
+            <li><a href="#contact" class="nav-link" data-text="Visit Us">Visit Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg" id="hero-bg" style="background-image: linear-gradient(rgba(13, 12, 12, 0.7), rgba(13, 12, 12, 0.9)), url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=2000'); background-size: cover; background-position: center;"></div>
+            <div class="hero-content">
+                <h1 class="hero-title reveal-text">Beyond <br><span class="highlight">Ordinary</span></h1>
+                <p class="hero-subtitle reveal-fade">Taste the art of meticulously crafted coffee.</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-glow reveal-fade delay-1">Explore Menu</a>
+                    <a href="#contact" class="btn btn-outline reveal-fade delay-2" style="margin-left: 1rem;">Find Us</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container about-grid">
+                <div class="about-text">
+                    <h2 class="section-title reveal-text">A Symphony of <br>Flavor</h2>
+                    <p class="reveal-fade delay-1">We source the rarest beans from around the globe, roasting them flawlessly to bring out complex, vivid notes that dance on your palate. At Aura, coffee is not just a drink; it's an immersive experience designed to elevate your senses.</p>
+                    <div class="stats grid-3 reveal-fade delay-2" style="margin-top: 2rem; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
+                        <div>
+                            <h3 style="color: var(--accent); font-size: 2rem;">15+</h3>
+                            <p style="font-size: 0.9rem;">Single Origins</p>
+                        </div>
+                        <div>
+                            <h3 style="color: var(--accent); font-size: 2rem;">100%</h3>
+                            <p style="font-size: 0.9rem;">Fair Trade</p>
+                        </div>
+                        <div>
+                            <h3 style="color: var(--accent); font-size: 2rem;">24h</h3>
+                            <p style="font-size: 0.9rem;">Fresh Roast</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image-wrapper reveal-fade delay-2">
+                    <div class="about-image" style="background-image: url('https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=800'); background-size: cover; background-position: center;"></div>
+                    <div class="glow-orb"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu section">
+            <div class="container">
+                <div class="section-header reveal-text">
+                    <h2 class="section-title center">The Collection</h2>
+                    <p class="section-subtitle center">Curated pours for the discerning palate.</p>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item glass-card reveal-fade">
+                        <div class="menu-img" style="background-image: url('https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&q=80&w=400');"></div>
+                        <h3>Ethiopian Yirgacheffe</h3>
+                        <p class="notes">Floral, Citrus, Light Body</p>
+                        <span class="price">$6.00</span>
+                    </div>
+                    <div class="menu-item glass-card reveal-fade delay-1">
+                        <div class="menu-img" style="background-image: url('https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&q=80&w=400');"></div>
+                        <h3>Colombian Supremo</h3>
+                        <p class="notes">Chocolate, Caramel, Medium Body</p>
+                        <span class="price">$5.50</span>
+                    </div>
+                    <div class="menu-item glass-card reveal-fade delay-2">
+                        <div class="menu-img" style="background-image: url('https://images.unsplash.com/photo-1620360289873-1070e676104e?auto=format&fit=crop&q=80&w=400');"></div>
+                        <h3>Sumatra Mandheling</h3>
+                        <p class="notes">Earthy, Herbal, Full Body</p>
+                        <span class="price">$5.00</span>
+                    </div>
+                    <div class="menu-item glass-card signature reveal-fade delay-3">
+                        <div class="menu-img" style="background-image: url('https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&q=80&w=400');"></div>
+                        <h3>The Aura Blend</h3>
+                        <p class="notes">Our secret signature velvet blend</p>
+                        <span class="price">$7.50</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery section">
+            <div class="container">
+                <h2 class="section-title center reveal-text">The Experience</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item reveal-fade" style="background-image: url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=600');"></div>
+                    <div class="gallery-item reveal-fade delay-1" style="background-image: url('https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&q=80&w=600');"></div>
+                    <div class="gallery-item reveal-fade delay-2" style="background-image: url('https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&q=80&w=600');"></div>
+                    <div class="gallery-item reveal-fade" style="background-image: url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600');"></div>
+                    <div class="gallery-item reveal-fade delay-1" style="background-image: url('https://images.unsplash.com/photo-1495474472204-518621814fa5?auto=format&fit=crop&q=80&w=600');"></div>
+                    <div class="gallery-item reveal-fade delay-2" style="background-image: url('https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&q=80&w=600');"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials section">
+            <div class="container relative">
+                <h2 class="section-title center reveal-text">Stories</h2>
+                <div class="testimonial-slider reveal-fade delay-1">
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p class="quote">"Absolutely the best coffee experience in the city. The Aura Blend is out of this world. The aesthetic of the shop makes you want to stay all day."</p>
+                        <div class="author-info">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=facearea&facepad=2&w=100&h=100&q=80" alt="Sarah J.">
+                            <div>
+                                <h4>Sarah Jenkins</h4>
+                                <span>Local Guide</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p class="quote">"World class pour-overs. The baristas know exactly what they are doing. Perfect place for reading or getting work done in a sophisticated atmosphere."</p>
+                        <div class="author-info">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=facearea&facepad=2&w=100&h=100&q=80" alt="Michael T.">
+                            <div>
+                                <h4>Michael Torres</h4>
+                                <span>Coffee Enthusiast</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter section reveal-fade">
+            <div class="container">
+                <div class="newsletter-box glass-card">
+                    <h2>Join the Coffee Club</h2>
+                    <p>Subscribe to get exclusive offers, fresh roast alerts, and coffee brewing guides.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn btn-glow">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container contact-content">
+                <h2 class="section-title reveal-text">Get in Touch</h2>
+                <div class="contact-grid">
+                    <div class="contact-info reveal-fade delay-1">
+                        <p class="address"><i class="fa-solid fa-location-dot" style="color:var(--accent); margin-right: 10px;"></i> 123 Brew Lane, Coffee District</p>
+                        <p class="hours"><i class="fa-solid fa-clock" style="color:var(--accent); margin-right: 10px;"></i> Mon - Sun: 7am - 8pm</p>
+                        <p class="phone"><i class="fa-solid fa-phone" style="color:var(--accent); margin-right: 10px;"></i> +1 (555) 123-4567</p>
+                        <a href="mailto:hello@auracoffee.com" class="email-link">hello@auracoffee.com</a>
+                    </div>
+                    <div class="contact-form reveal-fade delay-2">
+                        <form id="aura-form">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                            <textarea placeholder="Your Message" rows="4" required></textarea>
+                            <button type="submit" class="btn btn-glow" style="width: 100%;">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2>Aura.</h2>
+                    <p>Elevating the standard of coffee aesthetics and flavor since 2024.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Our Story</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Aura Coffee. All rights reserved.</p>
+                <p class="author-credit" style="color: var(--accent);">Designed & Developed for client by Sahil Dalvi</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
